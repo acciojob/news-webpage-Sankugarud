@@ -1,11 +1,13 @@
 /*  your css code here. If applicable */
-html{
+*{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 .header{
 	background-color: #011e29;
+  margin: 10px;
+  padding: 20px;
 	color: white;
 	height: 100%;
 	display: flex;
@@ -15,30 +17,40 @@ html{
 	display: 
 	display: inline-block;
 	width: 100%;
+  padding: 10px;
 }
 .sec1{
 	width: 30%;
 	display: inline-block;
+  
 }
-	p{
-		display:flex;
-		
-	}
+    
+ul{
+    position: relative;
+    left: 50px;
+}
+h4{
+  margin:10px;
+  
+}
 .sec2{
 	width: 30%;
 	display: inline-block;
-	justify-content: center;
-	align-content: center;
-	
+  text-align: center;
 }
 img{
-	width: 150px;
+	width: 100px;
 	display:block;
-	
+	position: relative;
+  left: 250px;
 }
 .sec3{
 	display: inline-block;
 	width: 30%;
 	float: right;
-	align-item: center;
+  display: felx;
+  align-items: center;
+  text-align: center;
 }
+
+
