@@ -12,13 +12,15 @@
 	height: 100%;
 	display: flex;
 	justify-content: center;
-	text-align: center;
+  text-align: center;
 }
 .container{
 	display: 
 	display: inline-block;
 	width: 100%;
   padding: 10px;
+  display: flex;
+  justify-content: center;
 }
 .latest-news-section{
 	width: 30%;
