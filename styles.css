@@ -1,1 +1,44 @@
 /*  your css code here. If applicable */
+html{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header{
+	background-color: #011e29;
+	color: white;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+.container{
+	display: 
+	display: inline-block;
+	width: 100%;
+}
+.sec1{
+	width: 30%;
+	display: inline-block;
+}
+	p{
+		display:flex;
+		
+	}
+.sec2{
+	width: 30%;
+	display: inline-block;
+	justify-content: center;
+	align-content: center;
+	
+}
+img{
+	width: 150px;
+	display:block;
+	
+}
+.sec3{
+	display: inline-block;
+	width: 30%;
+	float: right;
+	align-item: center;
+}
